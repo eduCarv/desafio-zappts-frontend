@@ -1,0 +1,105 @@
+#page-letter-list {
+}
+
+.content-wrapper-letter-list {
+  display: flex;
+
+    margin-top: 100px;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+legend {
+    width: 700px;
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.7)
+}
+
+ul {
+    width: 700px;
+    height: 600px;    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.list-item {
+    width: 1000px;
+    height: 50px;
+
+    margin-bottom: 10px;
+    padding: 30px;
+
+    border: 1px solid rgba(0, 0, 0, 0.7);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 16px;        
+
+    background-color: #fff;
+    transition: ease-in-out 0.2s;
+}
+
+.list-item:hover {
+    background-color: #b3eff2;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.letter-id {
+    width: 40px;
+}
+
+.nome-list {
+    width: 450px;
+    overflow: hidden;
+
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.idade-list {
+    width: 100px;
+    overflow: hidden;
+
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.assunto-list {
+    width: 350px;
+    overflow: hidden;
+
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.span-list {
+    margin-left: 5px;
+}
